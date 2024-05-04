@@ -17,54 +17,44 @@ main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 main.ResetOnSpawn = false
 
 Frame.Parent = main
-Frame.BackgroundColor3 = Color3.fromRGB(29,29,29)
+Frame.BackgroundColor3 = Color3.fromRGB(255,255,255)
 Frame.BorderColor3 = Color3.fromRGB(103, 221, 213)
 Frame.Position = UDim2.new(0.100320168, 0, 0.379746825, 0)
 Frame.Size = UDim2.new(0, 190, 0, 57)
 
-up.Name = "up"
-up.Parent = Frame
-up.BackgroundColor3 = Color3.fromRGB(79, 255, 152)
-up.Size = UDim2.new(0, 44, 0, 28)
-up.Font = Enum.Font.SourceSans
-up.Text = "UP"
-up.TextColor3 = Color3.fromRGB(0, 0, 0)
-up.TextSize = 14.000
+len.Name = "len"
+len.Parent = Frame
+len.BackgroundColor3 = Color3.fromRGB(255,255,255)
+len.Size = UDim2.new(0, 44, 0, 28)
+len.Font = Enum.Font.SourceSans
+len.Text = "len"
+len.TextColor3 = Color3.fromRGB(0, 0, 0)
+len.TextSize = 14.000
 
-down.Name = "down"
-down.Parent = Frame
-down.BackgroundColor3 = Color3.fromRGB(29,29,29)
-down.Position = UDim2.new(0, 0, 0.491228074, 0)
-down.Size = UDim2.new(0, 44, 0, 28)
-down.Font = Enum.Font.SourceSans
-down.Text = "DOWN"
-down.TextColor3 = Color3.fromRGB(0, 0, 0)
-down.TextSize = 14.000
+xuong.Name = "xuong"
+xuong.Parent = Frame
+xuong.BackgroundColor3 = Color3.fromRGB(255,255,255)
+xuong.Position = UDim2.new(0, 0, 0.491228074, 0)
+xuong.Size = UDim2.new(0, 44, 0, 28)
+xuong.Font = Enum.Font.SourceSans
+xuong.Text = "xuong"
+xuong.TextColor3 = Color3.fromRGB(0, 0, 0)
+xuong.TextSize = 14.000
 
 onof.Name = "onof"
 onof.Parent = Frame
-onof.BackgroundColor3 = Color3.fromRGB(273, 249, 74)
+onof.BackgroundColor3 = Color3.fromRGB(255,255,255)
 onof.Position = UDim2.new(0.702823281, 0, 0.491228074, 0)
 onof.Size = UDim2.new(0, 56, 0, 28)
 onof.Font = Enum.Font.SourceSans
-onof.Text = "fly"
+onof.Text = "bay"
 onof.TextColor3 = Color3.fromRGB(0, 0, 0)
 onof.TextSize = 14.000
 
-TextLabel.Parent = Frame
-TextLabel.BackgroundColor3 = Color3.fromRGB(242, 60, 255)
-TextLabel.Position = UDim2.new(0.469327301, 0, 0, 0)
-TextLabel.Size = UDim2.new(0, 100, 0, 28)
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "HUNTERSEADRAGON"
-TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
 
 plus.Name = "plus"
 plus.Parent = Frame
-plus.BackgroundColor3 = Color3.fromRGB(133, 145, 255)
+plus.BackgroundColor3 = Color3.fromRGB(255,255,255)
 plus.Position = UDim2.new(0.231578946, 0, 0, 0)
 plus.Size = UDim2.new(0, 45, 0, 28)
 plus.Font = Enum.Font.SourceSans
@@ -74,21 +64,21 @@ plus.TextScaled = true
 plus.TextSize = 14.000
 plus.TextWrapped = true
 
-speed.Name = "speed"
-speed.Parent = Frame
-speed.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
-speed.Position = UDim2.new(0.468421042, 0, 0.491228074, 0)
-speed.Size = UDim2.new(0, 44, 0, 28)
-speed.Font = Enum.Font.SourceSans
-speed.Text = "1"
-speed.TextColor3 = Color3.fromRGB(0, 0, 0)
-speed.TextScaled = true
-speed.TextSize = 14.000
-speed.TextWrapped = true
+tocdo.Name = "tocdo"
+tocdo.Parent = Frame
+tocdo.BackgroundColor3 = Color3.fromRGB(255,255,255)
+tocdo.Position = UDim2.new(0.468421042, 0, 0.491228074, 0)
+tocdo.Size = UDim2.new(0, 44, 0, 28)
+tocdo.Font = Enum.Font.SourceSans
+tocdo.Text = "1"
+tocdo.TextColor3 = Color3.fromRGB(0, 0, 0)
+tocdo.TextScaled = true
+tocdo.TextSize = 14.000
+tocdo.TextWrapped = true
 
 mine.Name = "mine"
 mine.Parent = Frame
-mine.BackgroundColor3 = Color3.fromRGB(123, 255, 247)
+mine.BackgroundColor3 = Color3.fromRGB(255,255,255)
 mine.Position = UDim2.new(0.231578946, 0, 0.491228074, 0)
 mine.Size = UDim2.new(0, 45, 0, 29)
 mine.Font = Enum.Font.SourceSans
@@ -109,7 +99,7 @@ closebutton.Position =  UDim2.new(0, 0, -1, 27)
 
 mini.Name = "minimize"
 mini.Parent = main.Frame
-mini.BackgroundColor3 = Color3.fromRGB(192, 150, 230)
+mini.BackgroundColor3 = Color3.fromRGB(255,255,255)
 mini.Font = "SourceSans"
 mini.Size = UDim2.new(0, 45, 0, 28)
 mini.Text = "-"
@@ -118,7 +108,7 @@ mini.Position = UDim2.new(0, 44, -1, 27)
 
 mini2.Name = "minimize2"
 mini2.Parent = main.Frame
-mini2.BackgroundColor3 = Color3.fromRGB(192, 150, 230)
+mini2.BackgroundColor3 = Color3.fromRGB(255,255,255)
 mini2.Font = "SourceSans"
 mini2.Size = UDim2.new(0, 45, 0, 28)
 mini2.Text = "+"
@@ -448,11 +438,11 @@ closebutton.MouseButton1Click:Connect(function()
 end)
 
 mini.MouseButton1Click:Connect(function()
-	up.Visible = false
-	down.Visible = false
+	len.Visible = false
+	xuong.Visible = false
 	onof.Visible = false
 	plus.Visible = false
-	speed.Visible = false
+	tocdo.Visible = false
 	mine.Visible = false
 	mini.Visible = false
 	mini2.Visible = true
@@ -461,11 +451,11 @@ mini.MouseButton1Click:Connect(function()
 end)
 
 mini2.MouseButton1Click:Connect(function()
-	up.Visible = true
-	down.Visible = true
+	len.Visible = true
+	xuong.Visible = true
 	onof.Visible = true
 	plus.Visible = true
-	speed.Visible = true
+	tocdo.Visible = true
 	mine.Visible = true
 	mini.Visible = true
 	mini2.Visible = false
