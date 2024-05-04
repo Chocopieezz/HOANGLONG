@@ -75,7 +75,5 @@ exit.TextSize = 30.000
 exit.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 exit.TextStrokeTransparency = 0.000
 exit.MouseButton1Click:Connect(function()
-	main:Destroy()
-end)
-	
-end)
+	exit:Destroy()
+end
