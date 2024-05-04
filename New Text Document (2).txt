@@ -56,7 +56,7 @@ INY.TextSize = 30.000
 INY.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 INY.TextStrokeTransparency = 0.000
 INY.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://https://raw.githubusercontent.com/Chocopieezz/HOANGLONG/main/HOANGLONG.md"))()
+	loadstring(game:HttpGet("https://https://raw.githubusercontent.com/Chocopieezz/HOANGLONG/main/HOANGLONG.txt"))()
 end)
 
 exit.Name = "exit"
