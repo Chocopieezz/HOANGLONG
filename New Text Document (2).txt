@@ -6,11 +6,9 @@
 local ScreenGui = Instance.new("ScreenGui")
 local Menu1 = Instance.new("Frame")
 local UIGradient = Instance.new("UIGradient")
-local TextLabel = Instance.new("TextLabel")
+local Menuname = Instance.new("TextLabel")
 local INY = Instance.new("TextButton")
 local exit = Instance.new("TextButton")
-local openmenu = Instance.new("Frame")
-local openmenubutton = Instance.new("ImageButton")
 
 --Properties:
 
@@ -26,23 +24,23 @@ Menu1.Position = UDim2.new(0.222696245, 0, 0.302729517, 0)
 Menu1.Size = UDim2.new(0, 290, 0, 239)
 Menu1.Active = true
 Menu1.Visible = true
-Menu1.Draggable = true
 
 UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(76, 76, 76)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(53, 53, 53))}
 UIGradient.Rotation = 90
 UIGradient.Parent = Menu1
 
-TextLabel.Parent = Menu1
-TextLabel.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-TextLabel.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BorderSizePixel = 0
-TextLabel.Size = UDim2.new(0, 290, 0, 50)
-TextLabel.Font = Enum.Font.SourceSansBold
-TextLabel.Text = "Flying Demon Piece - - BY.HOANGLONG"
-TextLabel.TextColor3 = Color3.fromRGB(194, 129, 0)
-TextLabel.TextSize = 19.000
-TextLabel.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextWrapped = true
+Menuname.Name = "Menuname"
+Menuname.Parent = Menu1
+Menuname.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+Menuname.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Menuname.BorderSizePixel = 0
+Menuname.Size = UDim2.new(0, 290, 0, 50)
+Menuname.Font = Enum.Font.SourceSansBold
+Menuname.Text = "Flying Demon Piece - - BY.HOANGLONG"
+Menuname.TextColor3 = Color3.fromRGB(194, 129, 0)
+Menuname.TextSize = 19.000
+Menuname.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Menuname.TextWrapped = true
 
 INY.Name = "INY"
 INY.Parent = Menu1
@@ -58,7 +56,7 @@ INY.TextSize = 30.000
 INY.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 INY.TextStrokeTransparency = 0.000
 INY.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+	loadstring(game:HttpGet("https://https://raw.githubusercontent.com/Chocopieezz/HOANGLONG/main/HOANGLONG.md"))()
 end)
 
 exit.Name = "exit"
@@ -74,30 +72,6 @@ exit.TextColor3 = Color3.fromRGB(0, 0, 0)
 exit.TextSize = 30.000
 exit.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 exit.TextStrokeTransparency = 0.000
-exit.MouseButton1Down.Connect(function()
-	Menu1.Visible = false
-	openmenu.Visible = true
-end)
-
-openmenu.Name = "openmenu"
-openmenu.Parent = ScreenGui
-openmenu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-openmenu.BorderColor3 = Color3.fromRGB(0, 0, 0)
-openmenu.BorderSizePixel = 0
-openmenu.Position = UDim2.new(0, 0, 0.303970218, 0)
-openmenu.Size = UDim2.new(0, 160, 0, 106)
-openmenu.Active = true
-openmenu.Draggable = true
-
-openmenubutton.Name = "openmenubutton"
-openmenubutton.Parent = openmenu
-openmenubutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-openmenubutton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-openmenubutton.BorderSizePixel = 0
-openmenubutton.Position = UDim2.new(-0.00274124136, 0, -0.00348648941, 0)
-openmenubutton.Size = UDim2.new(0, 160, 0, 106)
-openmenubutton.Image = "http://www.roblox.com/asset/?id=17377278546"
-openmenubutton.MouseButton1Down:Connect(function()
-	Menu1.Visible = true
-	openmenu.Visible = false
+exit.MouseButton1Down:Connect(function()
+	
 end)
